@@ -553,6 +553,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 /* ---------------------------------------
 	( 6 ) Start About Section 
 ----------------------------------------- */
+#about {position: relative;}
 #about .profile-intro {margin-bottom: 60px;}
 #about .profile-intro .profile-img-wrapper {margin-bottom: 40px;}
 #about .profile-intro .profile-img-wrapper img {

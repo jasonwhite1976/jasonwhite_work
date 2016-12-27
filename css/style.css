@@ -603,6 +603,10 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 }
 #about .info-tabs .tab-content span {font-weight: 400;}
 
+.personal-info-paras {
+	margin-left: 20px;	
+}
+
 /* End About Me Section */
 
 

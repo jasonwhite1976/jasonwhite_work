@@ -525,7 +525,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 }
 #home .go-down span,
-#about .go-down span{
+#about .go-down span {
 	display: inline-block;
 	color: #eee;
 	font-size: 18px;
@@ -533,7 +533,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transform: rotate(-45deg);
 	    -ms-transform: rotate(-45deg);
 	        transform: rotate(-45deg);
-    -webkit-animation: plink 1s infinite linear;
+    	-webkit-animation: plink 1s infinite linear;
     		animation: plink 1s infinite linear;
 }
 @-webkit-keyframes plink {
@@ -545,6 +545,15 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	0% {opacity: 0;}
 	30% {opacity: 1;}
 	100% {opacity: 0;}
+}
+
+#about .go-down {
+	bottom: 34px;
+	border: 1px solid #000;
+}
+
+#about .go-down span {
+	color: #000;
 }
 
 /* End Home Section */

@@ -507,7 +507,8 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 .fade-slider .slider .slide-three {background-image: url("http://placehold.it/1920x1280");}
 
 /*** 5-g - Go down arrow ***/
-#home .go-down {
+#home .go-down,
+#about .go-down {
 	position: absolute;
 	z-index: 3;
 	left: 50%;
@@ -523,7 +524,8 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
     		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 }
-#home .go-down span {
+#home .go-down span,
+#about .go-down span{
 	display: inline-block;
 	color: #eee;
 	font-size: 18px;

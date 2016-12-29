@@ -292,11 +292,11 @@ Author: Ahmed Beheiry
 			method: "POST",
 			data: {message: "hello!"},
 			dataType: "json",
-			beforeSend: function(text) {
+			/*beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");
-			},
-			success: function(text) {
+			},*/
+			/*success: function(text) {
 				if(text == "success") {
 					contactForm[0].reset();
 					formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
@@ -304,7 +304,7 @@ Author: Ahmed Beheiry
 				} else {
 					formResponse.text(text).fadeIn(1000);
 				}
-			}
+			}*/
 		});
 	}
 })(jQuery);

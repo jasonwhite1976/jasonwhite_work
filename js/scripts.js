@@ -284,14 +284,14 @@ Author: Ahmed Beheiry
 	// Submit Function
 	function submitForm() {
 		// Some Variables
-		var name = $("#name").val(),
+		/*var name = $("#name").val(),
 			mail = $("#mail").val(),
-			message = $("#message").val();
+			message = $("#message").val();*/
 		$.ajax({
-			url: "https://formspree.io/jason@jasonwhite.work",
-	    method: "POST",
-	    data: {message: "hello!"},
-	    dataType: "json"
+			url: "https://formspree.io/you@email.com",
+			method: "POST",
+			data: {message: "hello!"},
+			dataType: "json"
 			beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");

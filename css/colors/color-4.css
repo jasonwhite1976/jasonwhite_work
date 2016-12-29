@@ -1,4 +1,6 @@
 /* Main Rules */
+.loading .loading-wrapper .loader {background: #00b85b;}
+.loading .loading-wrapper h4 {color: #00b85b;}
 .separator {background: #00b85b;}
 .tooltip-inner {background-color: #00b85b;}
 .tooltip.top .tooltip-arrow {border-top-color: #00b85b;}
@@ -22,7 +24,10 @@
 #home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #00b85b;}
 #home .navbar.scrolled .nav .active a {background: #00b85b;}
 .hero-content-wrapper .hero-content span.dot {background: #00b85b;}
+
+/* go-down links */
 #home .go-down:hover {background: #00b85b; border-color: #00b85b;}
+#about .go-down:hover {background: #00b85b; border-color: #00b85b;}
 
 /* About Section */
 #about .info-tabs .nav-tabs>li>a {background: #00b85b;}
@@ -65,7 +70,7 @@
 /* -------------------------------------
               Media Queries
 * ------------------------------------- */
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	/* Adjusting the navbar */
 	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #00b85b;}
 	#home .navbar .navbar-toggle .icon-bar {background: #00b85b;}

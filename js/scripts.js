@@ -291,7 +291,7 @@ Author: Ahmed Beheiry
 			url: "https://formspree.io/you@email.com",
 			method: "POST",
 			data: {message: "hello!"},
-			dataType: "json"
+			dataType: "json",
 			beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");

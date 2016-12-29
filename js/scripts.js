@@ -288,9 +288,10 @@ Author: Ahmed Beheiry
 			mail = $("#mail").val(),
 			message = $("#message").val();
 		$.ajax({
-			type: "POST",
-			url: "https://formspree.io/you@email.com",
-			data: "name=" + name + "&mail=" + mail + "&message=" + message,
+			url: "https://formspree.io/jason@jasonwhite.work",
+	    method: "POST",
+	    data: {message: "hello!"},
+	    dataType: "json"
 			beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");

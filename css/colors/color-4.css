@@ -12,6 +12,12 @@
 .btn-custom.reverse:hover {border: 1px solid #00b85b;}
 .btn-custom.light:hover {color: #00b85b !important;}
 
+.btn-send-email {border: 1px solid #00b85b;}
+.btn-send-email {background: #00b85b;}
+.btn-send-email {background: #00b85b;}
+.btn-send-email.reverse:hover {border: 1px solid #00b85b;}
+.btn-send-email.light:hover {color: #00b85b !important;}
+
 /* Color-Box Switch */
 .color-switcher h6 {background: #00b85b;}
 .color-switcher .switcher-btn {background: #00b85b;}

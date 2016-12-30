@@ -83,6 +83,7 @@ p.para {
 .section {padding: 80px 0 40px;}
 .section-intro {margin-bottom: 60px;}
 .section-intro p {width: 75%; margin: 0 auto;}
+
 .overlay {
 	position: absolute;
 	width: 100%;
@@ -94,6 +95,7 @@ p.para {
 	z-index: 0;
 	background: rgba(0, 0, 0, 0.75);
 }
+
 .separator {
 	position: relative;
 	width: 70px;
@@ -101,7 +103,9 @@ p.para {
 	margin: 10px 0;
 }
 .separator.centered {margin: 10px auto;}
+
 a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
+
 #Container .mix {display: none;}
 
 /*** 2-c - Typed Cursor ***/
@@ -440,11 +444,11 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	outline: none;
 }
 .fs-slider-hero .slider .slide-one {
-	background: url("http://placehold.it/1920x1280");
+	background: url("/img/ColourScape.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-two {
-	background: url("http://placehold.it/1920x1280");
+	background: url("/img/AtmosphericSky.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-two .hero-content-wrapper .hero-content h1 {
@@ -454,7 +458,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	margin-top: 30px;
 }
 .fs-slider-hero .slider .slide-three {
-	background: url("http://placehold.it/1920x1280");
+	background: url("/img/AtmosphericSky.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-three .hero-content-wrapper .hero-content h1 {
@@ -500,9 +504,9 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background-size: cover;
 	background-position: center;
 }
-.fade-slider .slider .slide-one {background-image: url("http://placehold.it/1920x1280");}
-.fade-slider .slider .slide-two {background-image: url("http://placehold.it/1920x1280");}
-.fade-slider .slider .slide-three {background-image: url("http://placehold.it/1920x1280");}
+.fade-slider .slider .slide-one {background-image: url("/img/AtmosphericSky.jpg");}
+.fade-slider .slider .slide-two {background-image: url("/img/AtmosphericSky3.jpg");}
+.fade-slider .slider .slide-three {background-image: url("/img/AtmosphericSky2.jpg");}
 
 /*** 5-g - Go down arrow ***/
 #home .go-down,
@@ -727,17 +731,17 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 
 /* End Services Section */
 
-
 /* -------------------------------------
     ( 11 ) Start Quote Section
 * ------------------------------------- */
 #quote {
-	background: #333 url("http://placehold.it/1920x1280");
+	background: #333 url("/img/ColourScape.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
-	padding: 120px 0px 60px;
+	padding: 20px 0px 60px;
 }
 #quote.parallax {background-attachment: fixed;}
 #quote h2, #quote p, #quote a {color: #fff;}
@@ -814,10 +818,11 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 13 ) Start Skills Section
 * ------------------------------------- */
 #skills {
-	background: #333 url("http://placehold.it/1920x1280");
+	background: #333 url("/img/ColourScape.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
 }
 #skills.parallax {background-attachment: fixed;}

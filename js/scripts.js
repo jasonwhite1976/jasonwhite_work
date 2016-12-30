@@ -262,7 +262,8 @@ Author: Ahmed Beheiry
 		dots: false,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 6000,
+		speed: 4000,
 	});
 
 

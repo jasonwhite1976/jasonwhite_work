@@ -86,7 +86,7 @@ Author: Ahmed Beheiry
 	}
 
     /* ---------------------------------------------------------
-			4 - Move to section onclick on navbar link 
+			4 - Move to section onclick on navbar link
 	----------------------------------------------------- */
     $("a.scroll-link").on("click", function(e) {
     	e.preventDefault();
@@ -99,7 +99,7 @@ Author: Ahmed Beheiry
     });
 
 	/* ---------------------------------------------------
-			5 - change navbar background on scroll 
+			5 - change navbar background on scroll
 	----------------------------------------------------- */
 	$(window).scroll(function() {
 		var navBar = $("#home .navbar");
@@ -111,14 +111,14 @@ Author: Ahmed Beheiry
 	});
 
 	/* ---------------------------------------------------
-			6 - Hide menu after clicking on a link 
+			6 - Hide menu after clicking on a link
 	----------------------------------------------------- */
 	$(".nav a").on("click", function() {
 		$("#navbar-collaps").collapse("hide");
 	});
 
 	/* ---------------------------------------------------
-			7 - Launch To Top Button when scroll 
+			7 - Launch To Top Button when scroll
 	----------------------------------------------------- */
 	var toTopButton = $("#toTop");
 	$(window).scroll(function() {
@@ -167,11 +167,11 @@ Author: Ahmed Beheiry
 	/* Changing color when clicking on color-slot  */
 	colorSlot.on("click", function() {
 		var dataTarget = $(this).attr("data-target");
-		$("link[href*='color-']").attr("href", dataTarget);		
+		$("link[href*='color-']").attr("href", dataTarget);
 	});
 
 	/* ---------------------------------------------------
-			10 - Launch Bootstrap Tabs in About-Me Section 
+			10 - Launch Bootstrap Tabs in About-Me Section
 	----------------------------------------------------- */
 	$(".info-tabs .nav-tabs a").on("click", function(e) {
 		e.preventDefault();
@@ -179,7 +179,7 @@ Author: Ahmed Beheiry
 	});
 
     /* ---------------------------------------------------
-			11 - Start numbers animate at fun-facts section 
+			11 - Start numbers animate at fun-facts section
 	----------------------------------------------------- */
     $("#fun-facts").appear(function() {
         $(".timer").countTo();
@@ -189,7 +189,7 @@ Author: Ahmed Beheiry
     });
 
     /* ---------------------------------------------------
-			12 - Start EasyPieChart plugin 
+			12 - Start EasyPieChart plugin
 	----------------------------------------------------- */
     $("#skills").appear(function() {
         $(".chart").easyPieChart({
@@ -203,7 +203,7 @@ Author: Ahmed Beheiry
             animate: 1500
         });
         // start numbers CountTo at skills section //
-        $(".skill-timer").countTo();               
+        $(".skill-timer").countTo();
     }, {
         accX: 0,
         accY: -350
@@ -262,7 +262,8 @@ Author: Ahmed Beheiry
 		dots: false,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 6000,
+		speed: 4000,
 	});
 
 
@@ -284,17 +285,18 @@ Author: Ahmed Beheiry
 	// Submit Function
 	function submitForm() {
 		// Some Variables
-		var name = $("#name").val(),
+		/*var name = $("#name").val(),
 			mail = $("#mail").val(),
-			message = $("#message").val();
+			message = $("#message").val();*/
 		$.ajax({
-			type: "POST",
-			url: "php/contact.php",
-			data: "name=" + name + "&mail=" + mail + "&message=" + message,
-			beforeSend: function(text) {
+			url: "https://formspree.io/you@email.com",
+			method: "POST",
+			data: {message: "hello!"},
+			dataType: "json",
+			/*beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");
-			},
+			},*/
 			success: function(text) {
 				if(text == "success") {
 					contactForm[0].reset();

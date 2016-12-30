@@ -1,0 +1,12 @@
+#Setup
+title:        jasonwhite.work
+baseurl:      ""
+
+#About/contact
+author:
+  name:       Jason White
+  url:        jasonwhite.work
+
+#Others
+encoding: utf-8
+markdown: kramdown

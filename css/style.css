@@ -60,6 +60,7 @@ body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	position: relative;
 	line-height: 1;
+	background: #fdfdfd;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Raleway", sans-serif;
@@ -171,7 +172,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: #fff;
+	background: #fdfdfd;
 }
 .loading .loading-wrapper {
 	position: relative;
@@ -504,8 +505,9 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background-size: cover;
 	background-position: center;
 }
-.fade-slider .slider .slide-one {background-image: url("/img/AtmosphericSky.jpg");}
-.fade-slider .slider .slide-two {background-image: url("/img/AtmosphericSky3.jpg");}
+/*.fade-slider .slider .slide-one {background-image: url("/img/AtmosphericSky.jpg");}*/
+.fade-slider .slider .slide-one {background-image: url("/img/WinterWonderland.jpg");}
+.fade-slider .slider .slide-two {background-image: url("/img/MetalCrosses.jpg");}
 .fade-slider .slider .slide-three {background-image: url("/img/AtmosphericSky2.jpg");}
 
 /*** 5-g - Go down arrow ***/

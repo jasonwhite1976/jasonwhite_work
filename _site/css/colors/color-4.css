@@ -1,43 +1,46 @@
 /* Main Rules */
-.loading .loading-wrapper .loader {background: #00b85b;}
-.loading .loading-wrapper h4 {color: #00b85b;}
-.separator {background: #00b85b;}
-.tooltip-inner {background-color: #00b85b;}
-.tooltip.top .tooltip-arrow {border-top-color: #00b85b;}
-::-moz-selection {background: #00b85b;}
-::selection {background: #00b85b;}
+/* #304250 */
+/* #304250 */
+
+.loading .loading-wrapper .loader {background: #304250;}
+.loading .loading-wrapper h4 {color: #304250;}
+.separator {background: #304250;}
+.tooltip-inner {background-color: #304250;}
+.tooltip.top .tooltip-arrow {border-top-color: #304250;}
+::-moz-selection {background: #304250;}
+::selection {background: #304250;}
 .btn-custom {border: 1px solid #fff;}
-.btn-custom:hover {background: #00b85b;}
+.btn-custom:hover {background: #304250;}
 .btn-custom.reverse {background: transparent;}
-.btn-custom.reverse:hover {border: 1px solid #00b85b;}
-.btn-custom.light:hover {color: #00b85b !important;}
+.btn-custom.reverse:hover {border: 1px solid #304250;}
+.btn-custom.light:hover {color: #304250 !important;}
 
 .btn-send-email {color: #fff !important;}
 
 /* Color-Box Switch */
-.color-switcher h6 {background: #00b85b;}
-.color-switcher .switcher-btn {background: #00b85b;}
-.color-switcher .map-styles li a:hover {background: #00b85b;}
+.color-switcher h6 {background: #304250;}
+.color-switcher .switcher-btn {background: #304250;}
+.color-switcher .map-styles li a:hover {background: #304250;}
 
 /* Home Section */
-#home .navbar span.colored-brand {background: #00b85b;}
-#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #00b85b;}
-#home .navbar.scrolled .navbar-brand {color: #00b85b;}
-#home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #00b85b;}
-#home .navbar.scrolled .nav .active a {background: #00b85b;}
-.hero-content-wrapper .hero-content span.dot {background: #00b85b;}
+#home .navbar span.colored-brand {background: #304250;}
+#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #304250;}
+#home .navbar.scrolled .navbar-brand {color: #304250;}
+#home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #304250;}
+#home .navbar.scrolled .nav .active a {background: #304250;}
+.hero-content-wrapper .hero-content span.dot {background: #304250;}
 
 /* go-down links */
-#home .go-down:hover {background: #00b85b; border-color: #00b85b;}
-#about .go-down:hover {background: #00b85b; border-color: #00b85b;}
+#home .go-down:hover {background: #304250; border-color: #304250;}
+#about .go-down:hover {background: #304250; border-color: #304250;}
 
 /* About Section */
-#about .info-tabs .nav-tabs>li>a {background: #00b85b;}
+#about .info-tabs .nav-tabs>li>a {background: #304250;}
 #about .info-tabs .nav-tabs>li.active>a,
 #about .info-tabs .nav-tabs>li.active>a:focus,
 #about .info-tabs .nav-tabs>li.active>a:hover,
-#about .info-tabs .nav-tabs>li>a:hover {border-color: #00b85b;}
-#about .info-tabs .tab-content {border: 1px solid #00b85b;}
+#about .info-tabs .nav-tabs>li>a:hover {border-color: #304250;}
+#about .info-tabs .tab-content {border: 1px solid #304250;}
 
 /* Ready Section */
 #ready {
@@ -50,37 +53,37 @@
 }
 
 /* Services Section */
-#services .service i:after {box-shadow: 0px 0px 0px 4px #00b85b;}
-#services .service:hover i {background: #00b85b;}
+#services .service i:after {box-shadow: 0px 0px 0px 4px #304250;}
+#services .service:hover i {background: #304250;}
 
 /* Skills Section */
-#skills .skill .chart span.percent {color: #00b85b;}
+#skills .skill .chart span.percent {color: #304250;}
 
 /* Testimonials Section */
-#testimonials .carousel .carousel-indicators li.active {background: #00b85b;}
-#testimonials .carousel .carousel-control {border: 1px solid #00b85b;}
-#testimonials .carousel .carousel-control:hover {background: #00b85b;}
+#testimonials .carousel .carousel-indicators li.active {background: #304250;}
+#testimonials .carousel .carousel-control {border: 1px solid #304250;}
+#testimonials .carousel .carousel-control:hover {background: #304250;}
 
 /* Experiences Section */
-#experiences .timeline .event .event-left i {color: #00b85b;}
-#experiences .timeline .event .event-left h4 {background: #00b85b;}
-#experiences .timeline .event .event-right::before {background: #00b85b;}
-#experiences .timeline .event .event-right::after {border: 2px solid #00b85b;}
+#experiences .timeline .event .event-left i {color: #304250;}
+#experiences .timeline .event .event-left h4 {background: #304250;}
+#experiences .timeline .event .event-right::before {background: #304250;}
+#experiences .timeline .event .event-right::after {border: 2px solid #304250;}
 
 /* Contact Section */
-#contact .call-info i {background: #00b85b;}
-#contact .call-info:hover .info-wrapper {background: #00b85b;}
-#contact .call-info:hover i {color: #00b85b;}
-#contact form #submit:hover {background: #00b85b; border-color: #00b85b;}
+#contact .call-info i {background: #304250;}
+#contact .call-info:hover .info-wrapper {background: #304250;}
+#contact .call-info:hover i {color: #304250;}
+#contact form #submit:hover {background: #304250; border-color: #304250;}
 
 /* To Top Button */
-#toTop {background: #00b85b;}
+#toTop {background: #304250;}
 
 /* -------------------------------------
               Media Queries
 * ------------------------------------- */
 @media (max-width: 991px) {
 	/* Adjusting the navbar */
-	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #00b85b;}
-	#home .navbar .navbar-toggle .icon-bar {background: #00b85b;}
+	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #304250;}
+	#home .navbar .navbar-toggle .icon-bar {background: #304250;}
 }

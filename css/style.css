@@ -509,7 +509,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 .fade-slider .slider .slide-one {background-image: url("/img/WinterWonderland.jpg");}
 .fade-slider .slider .slide-two {
 	background-image: url("/img/MetalCrosses.jpg");
-	background-position: -28px 0px;
+	background-position: -30px 0px;
 }
 .fade-slider .slider .slide-three {background-image: url("/img/AtmosphericSky2.jpg");}
 

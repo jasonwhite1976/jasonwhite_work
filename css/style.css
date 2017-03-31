@@ -1148,7 +1148,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	margin-top: 20px;
 	display: none;
 }
-#contact .social-wrapper {margin-top: 80px; margin-bottom: 40px;}
+#contact .social-wrapper {margin-top: 80px; /*margin-bottom: 40px;*/}
 #contact .social-wrapper h4 {color: #fff; margin-top: 0px;}
 #contact .social-wrapper .social-links {margin-top: 20px;}
 #contact .social-wrapper .icon {

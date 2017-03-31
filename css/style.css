@@ -1045,6 +1045,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	padding: 80px 0 10px;
 }
 #contact.parallax {background-attachment: fixed;}
 #contact p, #contact h2 {color: #fff;}
@@ -1196,6 +1197,10 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #contact .social-wrapper .icon.li::before {content: "\f0e1";}
 #contact .social-wrapper .icon.dr::before {content: "\f17d";}
 #contact .social-wrapper .icon.be::before {content: "\f1b4";}
+
+.white-text {
+	color: #fff;
+}
 
 @-webkit-keyframes icon-to-top {
 	49% {

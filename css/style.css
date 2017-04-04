@@ -1393,6 +1393,11 @@ footer .copyright i {
 		margin: 20px auto;
 		width: 60%;
 	}
+
+	#about .info-tabs .nav-tabs, #about .info-tabs .nav-tabs>li>a {
+    font-size: 11px
+  }
+
 }
 
 /* End Media Queries */

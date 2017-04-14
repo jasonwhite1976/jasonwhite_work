@@ -507,10 +507,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 }
 /*.fade-slider .slider .slide-one {background-image: url("/img/AtmosphericSky.jpg");}*/
 .fade-slider .slider .slide-one {background-image: url("/img/WinterWonderland.jpg");}
-.fade-slider .slider .slide-two {
-	background-image: url("/img/books.jpg");
-	background-position: -32px 0px;
-}
+.fade-slider .slider .slide-two {background-image: url("/img/books.jpg");}
 .fade-slider .slider .slide-three {background-image: url("/img/AtmosphericSky2.jpg");}
 
 /*** 5-g - Go down arrow ***/

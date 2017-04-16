@@ -432,7 +432,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 /*** 5-d - Typed text home ***/
 .typed .hero-content-wrapper .hero-content h1 {
 	letter-spacing: 0px;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 25px;
 }
 .typed .hero-content-wrapper .hero-content a {margin-left: 0;}

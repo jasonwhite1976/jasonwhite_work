@@ -348,12 +348,16 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transition: all 0.4s ease-in-out;
     		transition: all 0.4s ease-in-out;
 }
-#home .navbar .nav .active a {background: none;	color: #fff;}
+#home .navbar .nav .active a {
+	background: none;
+	color: #fff;
+  text-decoration: underline;
+}
+
 #home .navbar.scrolled {
 	box-shadow: 0px 0px 10px #949494;
 	background: #fff;
 	border-bottom: none;
-	text-decoration: underline;
 }
 #home .navbar.scrolled .navbar-brand {
 	height: 60px;

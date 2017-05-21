@@ -24,7 +24,7 @@
 
 /* Home Section */
 #home .navbar span.colored-brand {background: #304250;}
-#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #FFF; text-decoration: underline !important;}
+#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #FFF; /*text-decoration: underline !important;*/}
 #home .navbar.scrolled .navbar-brand {color: #304250;}
 #home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #304250;}
 #home .navbar.scrolled .nav .active a {background: #304250;}

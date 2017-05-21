@@ -351,7 +351,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #home .navbar .nav .active a {
 	background: none;
 	color: #fff;
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;*/
 }
 
 #home .navbar.scrolled {

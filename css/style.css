@@ -344,7 +344,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	padding-bottom: 30px;
 	text-transform: capitalize;
 	font-weight: 400;
-	color: #999;
+	color: #FFF;
 	-webkit-transition: all 0.4s ease-in-out;
     		transition: all 0.4s ease-in-out;
 }
@@ -353,6 +353,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	box-shadow: 0px 0px 10px #949494;
 	background: #fff;
 	border-bottom: none;
+	text-decoration: underline;
 }
 #home .navbar.scrolled .navbar-brand {
 	height: 60px;

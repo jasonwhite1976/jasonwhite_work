@@ -383,6 +383,10 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #home .navbar.scrolled .nav a {padding-bottom: 20px; padding-top: 20px;}
 #home .navbar.scrolled .nav .active a {color: #fff;}
 
+.navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
+
 /*** 5-c - Content ***/
 .hero-content-wrapper {
 	display: table;
@@ -1343,7 +1347,7 @@ footer .copyright i {
 @media (max-width: 991px) {
 	/* Home Section */
 	#home .navbar .nav>li>a {padding-left: 10px; padding-right: 10px;}
-	#home .navbar {background: #fff;}
+	/*#home .navbar {background: #fff;}*/
 	.fs-slider-hero .slider .slide-two .hero-content-wrapper .hero-content,
 	.fs-slider-hero .slider .slide-three .hero-content-wrapper .hero-content {padding-left: 5%;}
 
@@ -1364,6 +1368,9 @@ footer .copyright i {
 	/* Home Section */
 	.hero-content-wrapper .hero-content h1 {letter-spacing: 0px; font-size: 4.5em;}
 	.hero-content-wrapper .hero-content p {font-size: 1.1em;}
+
+  #home .navbar {background: #fff;}
+
 	.fs-slider-hero .slider .slick-prev,
 	.fs-slider-hero .slider .slick-next {
 		width: 40px;
@@ -1383,6 +1390,9 @@ footer .copyright i {
 	.hero-content-wrapper .hero-content {
     padding-top: 110px;
   }
+
+
+
 }
 
 

@@ -1371,6 +1371,10 @@ footer .copyright i {
 
   #home .navbar {background: #fff;}
 
+	#home .navbar .nav > li > a {
+    color: #777;
+	}
+
 	.fs-slider-hero .slider .slick-prev,
 	.fs-slider-hero .slider .slick-next {
 		width: 40px;

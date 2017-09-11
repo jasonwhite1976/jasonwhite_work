@@ -339,20 +339,28 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	line-height: 10px;
 	padding: 0px 5px 4px;
 }
-#home .navbar .nav>li>a {
+#home .navbar .nav > li > a {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-transform: capitalize;
 	font-weight: 400;
-	color: #777;
+	color: #dadada;
 	-webkit-transition: all 0.4s ease-in-out;
     		transition: all 0.4s ease-in-out;
 }
+#home .navbar .nav > li > a:hover {
+    color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
 #home .navbar .nav .active a {
 	background: none;
 	color: #fff;
   /*text-decoration: underline !important;*/
 }
+
+
 
 #home .navbar.scrolled {
 	/*box-shadow: 0px 0px 10px #949494;*/
@@ -1371,13 +1379,9 @@ footer .copyright i {
 
   #home .navbar { background: #fff; }
 
-	/*#home .navbar-fixed-top-grey .nav > li > a {
-    color: red;
-  }*/
-
-	/*#home .navbar .nav > li > a {
-    color: #fff;
-	}*/
+	#home .navbar .nav > li > a {
+	    color: #777;
+	}
 
 	#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {
     color: #777;

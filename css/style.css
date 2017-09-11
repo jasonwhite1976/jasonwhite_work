@@ -1384,7 +1384,7 @@ footer .copyright i {
 	}
 
 	#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {
-    color: #777;
+    /*color: #777;*/
 		background: #304250;
   }
 

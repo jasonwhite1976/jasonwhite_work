@@ -82,6 +82,8 @@
 /* -------------------------------------
               Media Queries
 * ------------------------------------- */
+#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #fff;}
+
 @media (max-width: 991px) {
 	/* Adjusting the navbar */
 	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #304250;}

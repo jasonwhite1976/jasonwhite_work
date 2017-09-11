@@ -344,7 +344,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	padding-bottom: 30px;
 	text-transform: capitalize;
 	font-weight: 400;
-	color: #FFF;
+	color: #777;
 	-webkit-transition: all 0.4s ease-in-out;
     		transition: all 0.4s ease-in-out;
 }
@@ -1366,13 +1366,26 @@ footer .copyright i {
 @media (max-width: 767px) {
 
 	/* Home Section */
-	.hero-content-wrapper .hero-content h1 {letter-spacing: 0px; font-size: 4.5em;}
-	.hero-content-wrapper .hero-content p {font-size: 1.1em;}
+	.hero-content-wrapper .hero-content h1 { letter-spacing: 0px; font-size: 4.5em; }
+	.hero-content-wrapper .hero-content p { font-size: 1.1em; }
 
-  #home .navbar {background: #fff;}
+  #home .navbar { background: #fff; }
 
-	#home .navbar .nav > li > a {
+	/*#home .navbar-fixed-top-grey .nav > li > a {
+    color: red;
+  }*/
+
+	/*#home .navbar .nav > li > a {
+    color: #fff;
+	}*/
+
+	#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {
     color: #777;
+		background: #304250;
+  }
+
+	#home .navbar.scrolled .nav a {
+		color: #fff;
 	}
 
 	.fs-slider-hero .slider .slick-prev,

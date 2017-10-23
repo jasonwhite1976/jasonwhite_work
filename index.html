@@ -199,8 +199,25 @@ title: Home
 						  <p class="para"><span class="highlight">Name:</span> Jason White</p>
 						  <p class="para"><span class="highlight">Nationality:</span> British</p>
 						  <p class="para"><span class="highlight">Date of birth:</span> 11th May 1976</p>
-							<p class="para"><span class="highlight">Full, clean driving license</span></p>
-						  <p class="para"><span class="highlight">Email:</span><a href="mailto:jason@jasonwhite.work"> jason@jasonwhite.work</a></p>
+						  <p class="para"><span class="highlight">Full, clean driving license</span></p>
+						  <p class="para"><span class="highlight">Email:</span><a href="mailto:jason@jasonwhite.work"> jason@jasonwhite.work</a></p>						
+							<!--
+								PeoplePerHour Profile Widget
+								The div#pph-hire me is the element
+								where the iframe will be inserted.
+								You may move this element wherever
+								you need to display the widget
+							-->
+							<div id="pph-hireme"></div>
+							<script type="text/javascript">
+							(function(d, s) {
+								var useSSL = 'https:' == document.location.protocol;
+								var js, where = d.getElementsByTagName(s)[0],
+								js = d.createElement(s);
+								js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/2704597545/1800173.js?width=300&height=135&orientation=vertical&theme=light&rnd='+parseInt(Math.random()*10000, 10);
+								try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
+							}(document, 'script'));
+							</script>
 						</div>
 					</div>
 				</div>

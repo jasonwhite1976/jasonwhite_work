@@ -75,7 +75,7 @@ p.para {
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 1px;
-	color: #595959;
+	color: #131a1f;
 }
 ::-moz-selection {color: #fff;}
 ::selection {color: #fff;}
@@ -607,7 +607,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #about .profile .separator {margin: 20px auto;}
 #about .profile p {font-size: 1.1em;}
 #about .profile span.highlight {color: #555; font-weight: 400;}
-#about .profile a {color: #595959;}
+#about .profile a {color: #131a1f;}
 
 /*** start tabs ***/
 #about .info-tabs {margin-bottom: 40px;}

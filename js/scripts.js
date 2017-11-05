@@ -338,11 +338,11 @@ Author: Ahmed Beheiry
 		// This is necessary so you never see what is "behind" the navbar.
 		if (st > lastScrollTop && st > navbarHeight){
 			// Scroll Down
-			$('.header').removeClass('nav-down').addClass('nav-up');
+			$('.navbar-default').removeClass('nav-down').addClass('nav-up');
 		} else {
 			// Scroll Up
 			if(st + $(window).height() < $(document).height()) {
-				$('.header').removeClass('nav-up').addClass('nav-down');
+				$('.navbar-default').removeClass('nav-up').addClass('nav-down');
 			}
 		}
 
